@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(237, 231, 224);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.welcome-page{
+    padding: 100px;
+    margin: 0 auto;
+}
+.welcome-page.p{
+    padding: 100px 200px;
+}
+h1{
+    color: #8B0000;
+    font-size: 3em;
+}
+h5{
+    color: grey;
+    font-size: 1.5em;
+}
+.theme-buttons{
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#book-theme{
+    background-color: #8B0000;
+    color: white;
+}
+#neutral-theme{
+    background-color: grey;
+    color:white;
+}

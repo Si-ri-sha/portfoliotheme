@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta chartset = "utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>book-theme.STH</title>
+    <link rel="stylesheet" href="book-theme.css">
+    <script src="book-theme.js" defer></script>
+
+    <body>
+          
+        <header>
+        <h1>Shireesha TH</h1> 
+        <h5>Software developer, Creative Thinker, Book Enthusiast</h5>
+        </header>
+
+        <p>pick a book</p>
+
+        <section id="books">
+            <button class="book-button obj" onclick="showContent('objective-button')">O<br>b<br>j<br>e<br>c<br>t<br>i<br>v<br>e</button>
+            <button class="book-button ski" onclick="showContent('skills-button')">S<br>k<br>i<br>l<br>l<br>s</button>
+            <button class="book-button exp" onclick="showContent('experience-button')">E<br>x<br>p<br>e<br>r<br>i<br>e<br>n<br>c<br>e</button>
+            <button class="book-button ins" onclick="showContent('internship-button')">I<br>n<br>t<br>e<br>r<br>n<br>s<br>h<br>i<br>p<br>s</button>
+            <button class="book-button pro" onclick="showContent('projects-button')">P<br>r<br>o<br>j<br>e<br>c<br>t<br>s</button>
+            <button class="book-button con" onclick="showContent('contect-button')">Contact<br> Info <br>& <br>Tech<br> Links</button>
+        </section>
+
+        <!----for objective-->
+        <section id="content" style="display: none;">
+        <div id="objective-button">
+            <h2>My Objective</h2>
+            <p>Seeking a challenging position in a reputable institution where I can leverage my engineering
+                background and technical skills in software development. With a strong foundation in JavaScript 
+                and Git, I am eager to broaden my horizons and contribute innovative solutions to complex projects.
+                 My goal is to continually learn, grow, and apply my creativity and problem-solving abilities to drive 
+                 excellence and achieve organizational goals.
+            </p>
+        </div>
+        </section>
+
+        <!----for skills display-->
+        <section id="skills-button" style="display: none;">
+        <div class="skill-items">
+            <div class="skill-item front">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>               
+            <div class="skill-item back">
+                <ul>
+                    <li>Java</li>
+                    <li>javascript</li>
+                    <li>python</li>
+                    <li>Ruby</li>
+                </ul>    
+            </div>
+            <div class="skill-item data">
+                <ul>
+                    <li>MySql</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>        
+            <div class="skill-item frame">
+                <ul>
+                    <li>Node.js</li>
+                    <li>ruby on rails</li>    
+                </ul>
+            </div>
+            <div class="skill-item site">
+                <ul>
+                    <li>Git</li>
+                    <li>VScode</li>
+                    <li>Figma</li>
+                </div>
+            <div class="skill-item skills">
+                <ul>
+                    <li>Interpersonal Skills</li>
+                    <li>Creativity</li>
+                    <li>Problem solving</li>
+            </div>
+        </div>
+        </section>
+        
+        <button onclick="goBack()">Exit</button>
+
+    </body>
+
+</html>
+<br>
