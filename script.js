@@ -5,3 +5,4 @@ document.getElementById('book-theme').addEventListener('click', function() {
 document.getElementById('neutral-theme').addEventListener('click', function(){
     window.location.href="neutral-theme.html"; //opens neutral theme portfolio
 });
+
